@@ -1,31 +1,72 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+
  <head>
-   <meta charset="utf-8">
-   <title>Voyager Fun Events</title>  
-   <link rel="stylesheet" href="style.css">
+  <title>FUN EVENTS IN VOYAGER 2020</title>
+  <link rel="stylesheet" type="text/css" href="C:\Users\Rajeev\Desktop\css\bootstrap-3.3.7-dist\css\bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+   <script type="text/javascript" src="C:\Users\Rajeev\Desktop\css\bootstrap-3.3.7-dist\js\bootstrap.min.js"></script>
  </head>
  <body>
-    <div class="slidershow middle">
+  <!---->
+   <img src="nav.png">
+   <div class="carousel slide" id="slider" data-ride="carousel">
+     <ol class="carousel-indicators">
+       <li class="active" data-slide-to="0" data-target="#slider"></li>
+       <li data-slide-to="1" data-target="#slider"></li>
+       <li data-slide-to="2" data-target="#slider"></li>
+       
+     </ol>
+     <div class="carousel-inner">
+       <div class="item active" id="slide1">
+         <div class="carousel active">
+           <h3>TREASURE HUNT</h3>
+           <img src="treasure.jpeg" width="250" height="250">
+           <br><br><br><br>
+           <p>Its a team event consisting minimum 3 members.<br>
+            <p>rules:<br>to be declared soon<br></p> 
+            VENUE:TO BE REVEALED<br>
+             DATE:TO BE REVEALED
+           </p>
+         </div>
+       </div>
+       <div class="item" id="slide2">
+         <div class="carousel active">
+           <h3>MINECRAFT</h3>
+           <img src="minecraft.jpg" width="250" height="250">
+           <br><br><br><br>
+           <p>Its a team event consisting 2 members.<br>
+            <p>rules:<br>to be declared soon<br></p>
+             VENUE:TO BE REVEALED<br>
+             DATE:TO BE REVEALED
+           </p>
+         </div>
+       </div>
+       <div class="item" id="slide3">
+         <div class="carousel active">
+           <h3>MINUTE TO WIN IT</h3>
+           <img src="minute.jpeg " width="250" height="250">
+           <br><br><br><br>
+           <p>Its a team event consisting 2 members.<br>
+            <p>rules:<br>to be declared soon<br></p>
+             VENUE:TO BE REVEALED<br>
+             DATE:TO BE REVEALED
+           </p>
+         </div>
+       </div>
+     </div>
+     <a class="left carousel-control" href="#slider" data-slide="prev" role="button">
+       <span class="icon-prev"></span>
+     </a>
+     <a class="right carousel-control" href="#slider" data-slide="next" role="button">
+       <span class="icon-next"></span>
+     </a>
+   
+   </div>
 
-     <div class="slides">
-       <input type="radio" name="r" id="r1" checked>
-       <input type="radio" name="r" id="r2" checked>
-       <input type="radio" name="r" id="r3" checked>
-       <div class="slide s1">
-         <img src="minecraft.jpg">
-       </div>
-       <div class="slide">
-        <img src="treasure.jpeg">
-       </div> 
-       <div class="slide">
-        <img src="minute.jpeg">
-       </div>
-     </div>
-     <div class="navigation">
-       <label for="r1" class="bar"></label>
-       <label for="r2" class="bar"></label>
-       <label for="r3" class="bar"></label>
-     </div>
-    </div>
- </body>
+
+  <!-- End your code here -->
+  </body>
 </html>
+
