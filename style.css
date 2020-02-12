@@ -1,46 +1,23 @@
 body{
-   margin: 0;
-   padding: 0;
-   height: 100%;
-   background: #343a40;
+ background-image: url(https://cdn.pixabay.com/photo/2011/12/15/11/37/solar-system-11188__480.jpg);
+ 
 }
 
-
-#slider.item{
-    height :400px;
-    
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
-#slide1{
-    background-image: url(th2.jpg) ;
-    background-size: 100% 100%;
+  a:hover{
+      text-decoration: none;
+  }
+  
+  .container{
     background-repeat: no-repeat;
-    text-align: center;
-    font-weight: bolder;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: red;
-    border-color: #343a40;
+    background-position: center center;
+    background-attachment: fixed;
   }
-#slide2{
-    background-image: url(the.jpg) ;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    text-align: center;
-    font-weight: bolder;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
-    border-color: #343a40;
-  }
-#slide3{
-    background-image: url(th3.jpg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    text-align: center;
-    font-weight: bolder;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
-    border-color: #343a40;
-    
-  }
-ol.carousel-indicators{
-  list-style-type: none;
-}
