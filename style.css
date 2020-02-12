@@ -1,23 +1,56 @@
-body{
- background-image: url(https://cdn.pixabay.com/photo/2011/12/15/11/37/solar-system-11188__480.jpg);
- 
-}
+body{ 
+    height:100%;}
+  /*.carousel,.item,.active{ 
+    height:100%;}*/
+  .carousel-inner{
+    height:100%;}
+  .carousel-item {
+      height: 100vh;
+      min-height: 350px;
+      width: 100%;
+      background: no-repeat center center scroll;
+     -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      
+        background-size: cover; 
+      /*position:absolute;
+     width: 100%;
+     top:0;
+       */
+  }
 
-.carousel-item {
-    height: 100vh;
-    min-height: 350px;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-  a:hover{
-      text-decoration: none;
-  }
-  
-  .container{
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-  }
+   .button{
+       background-color: #ffff00;
+       border: none;
+       color: black;
+       padding: 15px 32px;
+       text-align: center;
+       font-size: 16px;
+       cursor: pointer;
+       border-radius: 15px;
+   }
+   
+   .button:hover{
+       background-color:#ff073a;
+   }
+   .link:hover{
+    color: #ff073a !important;
+   }
+   .fa-twitter:hover, .fa-instagram:hover, .fa-facebook:hover{
+       color: #ff073a !important;
+   }
+    a:hover{
+        text-decoration: none;
+    }
+    
+    .container{
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
+      background-size: cover;
+   /*   position: fixed; 
+     */overflow: hidden; 
+     width: 100%;
+   
+    }
