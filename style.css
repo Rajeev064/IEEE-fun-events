@@ -30,9 +30,16 @@ body{
     height: auto;
     width: 100%;
   } 
+
+.modal{
+    margin-top: 150px;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+  
    .button{
     /*   border-color: #fff !important ;
-     */ 
+     */ background-color: none !important;
         border: none;
        color: white;
        padding: 15px 32px;
