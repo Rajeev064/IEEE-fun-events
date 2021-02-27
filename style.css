@@ -2,35 +2,25 @@ body{
   margin: 0;
   padding: 0;
     height: 100%;
-    width: 100%;
     background-color: black;
     }
-  /*.carousel,.item,.active{ 
-    height:100%;}*/
+  /* .carousel,.item,.active{ 
+    height:100%;} */
   .carousel-inner{
     max-width: 100%;
     height: auto !important;
     }
   .carousel-item {
-      height: 100vh;
-      min-height: 350px;
-      width: 100%;
-      background: no-repeat center center scroll;
-     -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      
-        background-size: cover; 
+    height: 100vh; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
       /*position:absolute;
      width: 100%;
      top:0;
        */
   }
-  .carousel-item img{
-    display: block;
-    height: auto;
-    width: 100%;
-  } 
 
 .modal{
     margin-top: 150px;
@@ -71,7 +61,7 @@ body{
       background-size: cover;
   /*   position: fixed; */
      overflow: hidden; 
-     width: 100%;
+     /* width: 100%; */
     padding: 0;
    
     }
