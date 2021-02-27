@@ -2,10 +2,11 @@ body,html{
   margin: 0;
   padding: 0;
     height: 100%;
+    width: 100%;
     background-color: black;
     }
   /* .carousel,.item,.active{ 
-    height:100%;} */
+    height:100%;}
   .carousel-inner{
     max-width: 100%;
     height: auto !important;
@@ -17,15 +18,15 @@ body,html{
       background-image: url('https://i.pinimg.com/originals/62/b7/2d/62b72d8c3d2fe65ceee31276dc9f442f.png');
     }
   .carousel-item {
-    height: 120vh; 
+    height: 120vh;  */
     /* Center and scale the image nicely */
-    background-position: center;
+    /* background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-      /*position:absolute;
-     width: 100%;
-     top:0;
-       */
+    background-size: cover !important; */
+      /* position:absolute; */
+     /* width: 100%; */
+     /* top:0;
+      
   }
   @media only screen and (max-width: 400px) {
     .carousel-item{
@@ -33,11 +34,11 @@ body,html{
     }
   }
 
-  @media only screen and (min-width: 401px) and (max-width:600px) {
+  @media only screen and (min-width: 401px) and (max-width:800px) {
     .carousel-item{
       height: 90vh !important;
     }
-  }
+  } */
 
 .modal{
     margin-top: 150px;
@@ -71,17 +72,18 @@ body,html{
         text-decoration: none;
     }
     
-    .container-lg{
+    /* .container-lg{
       background-repeat: no-repeat;
       background-position: center center;
       background-attachment: fixed;
       background-size: cover;
   /*   position: fixed; */
-     overflow: hidden; 
+     /* overflow: hidden;  */
      /* width: 100%; */
-    padding: 0;
+    /* padding: 0;
+    margin: 0 auto;
    
-    }
+    } */
     .link{
       color: white;
     }
